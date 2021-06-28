@@ -1,13 +1,14 @@
 #include <iostream>
 #include <stdio.h>
 #include "PlayerInformation.h"
+#include "MathFormulas.h"
 using namespace std;
 
 int main()
 {
-	PlayerInformation  playerInfo;
-	playerInfo.getdata();
-	playerInfo.displaydata();
+	MathFormulas mathinfo;
+	mathinfo.getdata();
+	mathinfo.Formula();
 }
 
 void AverageNumber()
