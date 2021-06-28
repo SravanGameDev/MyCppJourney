@@ -24,12 +24,18 @@
     <ClCompile Include="MathFormulas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Temperature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PlayerInformation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MathFormulas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Temperature.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

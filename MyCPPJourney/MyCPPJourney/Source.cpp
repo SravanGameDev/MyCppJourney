@@ -2,13 +2,14 @@
 #include <stdio.h>
 #include "PlayerInformation.h"
 #include "MathFormulas.h"
+#include "Temperature.h"
 using namespace std;
 
 int main()
 {
-	MathFormulas mathinfo;
-	mathinfo.getdata();
-	mathinfo.Formula();
+	Temperature temp;
+	temp.getTempData();
+	temp.convertToCelsius();
 }
 
 void AverageNumber()
