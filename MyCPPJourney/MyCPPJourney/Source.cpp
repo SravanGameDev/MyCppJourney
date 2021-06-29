@@ -3,13 +3,14 @@
 #include "PlayerInformation.h"
 #include "MathFormulas.h"
 #include "Temperature.h"
+#include "PrintLoop.h"
 using namespace std;
 
 int main()
 {
-	Temperature temp;
-	temp.getTempData();
-	temp.convertToCelsius();
+	PrintLoop temp;
+	temp.getUserInput();
+	temp.displayData();
 }
 
 void AverageNumber()

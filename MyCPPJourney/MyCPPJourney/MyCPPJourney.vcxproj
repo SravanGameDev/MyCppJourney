@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="MathFormulas.cpp" />
     <ClCompile Include="PlayerInformation.cpp" />
+    <ClCompile Include="PrintLoop.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Temperature.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MathFormulas.h" />
     <ClInclude Include="PlayerInformation.h" />
+    <ClInclude Include="PrintLoop.h" />
     <ClInclude Include="Temperature.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

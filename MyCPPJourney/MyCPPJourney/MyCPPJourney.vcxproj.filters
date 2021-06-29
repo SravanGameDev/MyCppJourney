@@ -27,6 +27,9 @@
     <ClCompile Include="Temperature.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PrintLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PlayerInformation.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Temperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintLoop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
