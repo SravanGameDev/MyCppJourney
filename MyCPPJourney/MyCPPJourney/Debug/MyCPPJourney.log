@@ -1,5 +1,3 @@
 ﻿  PrintLoop.cpp
-C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\PrintLoop.cpp(11,23): warning C4018: '<': signed/unsigned mismatch
-  Source.cpp
-  Generating Code...
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\PrintLoop.cpp(21,23): warning C4018: '<': signed/unsigned mismatch
   MyCPPJourney.vcxproj -> C:\Projects\Github\MyCppJourney\MyCPPJourney\Debug\MyCPPJourney.exe
