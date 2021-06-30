@@ -4,13 +4,14 @@
 #include "MathFormulas.h"
 #include "Temperature.h"
 #include "PrintLoop.h"
+#include "PolygonShape.h"
 using namespace std;
 
 int main()
 {
-	PrintLoop temp;
-	temp.getUserInput();
-	temp.displayData();
+	PolygonShape temp;
+	temp.Area(5);
+	temp.Area(5, 3);
 }
 
 void AverageNumber()
