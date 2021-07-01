@@ -1,11 +1,9 @@
-#include"SwapingNumbers.h"
-
+#include "ElectricityBill.h"
 
 int main()
 {
-	SwapingNumbers temp;
-	temp.getData();
-	temp.swapNumbers();
-
+	ElectricityBill temp;
+	temp.getUnits();
+	
 	cout << "\n\n\n";
 }

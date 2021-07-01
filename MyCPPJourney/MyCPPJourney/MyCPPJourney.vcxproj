@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ElectricityBill.cpp" />
     <ClCompile Include="MathFormulas.cpp" />
     <ClCompile Include="PlayerInformation.cpp" />
     <ClCompile Include="PolygonShape.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="Temperature.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ElectricityBill.h" />
     <ClInclude Include="MathFormulas.h" />
     <ClInclude Include="PlayerInformation.h" />
     <ClInclude Include="PolygonShape.h" />

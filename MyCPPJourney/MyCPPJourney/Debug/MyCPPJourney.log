@@ -1,2 +1,7 @@
-﻿  SwapingNumbers.cpp
+﻿  ElectricityBill.cpp
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ElectricityBill.cpp(7,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ElectricityBill.cpp(18,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ElectricityBill.cpp(22,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ElectricityBill.cpp(26,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ElectricityBill.cpp(32,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   MyCPPJourney.vcxproj -> C:\Projects\Github\MyCppJourney\MyCPPJourney\Debug\MyCPPJourney.exe
