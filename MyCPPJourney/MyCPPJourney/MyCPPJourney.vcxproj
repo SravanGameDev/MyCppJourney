@@ -144,6 +144,7 @@
     <ClCompile Include="PolygonShape.cpp" />
     <ClCompile Include="PrintLoop.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="SwapingNumbers.cpp" />
     <ClCompile Include="Temperature.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +152,7 @@
     <ClInclude Include="PlayerInformation.h" />
     <ClInclude Include="PolygonShape.h" />
     <ClInclude Include="PrintLoop.h" />
+    <ClInclude Include="SwapingNumbers.h" />
     <ClInclude Include="Temperature.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
