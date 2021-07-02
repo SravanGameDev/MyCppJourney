@@ -39,6 +39,9 @@
     <ClCompile Include="ElectricityBill.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ASCIIProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PlayerInformation.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ElectricityBill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ASCIIProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

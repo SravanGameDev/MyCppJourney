@@ -1,9 +1,9 @@
-#include "ElectricityBill.h"
+#include "ASCIIProgram.h"
 
 int main()
 {
-	ElectricityBill temp;
-	temp.getUnits();
+	ASCIIProgram temp;
+	temp.getUserInputs();
 	
-	cout << "\n\n\n";
+	system("pause>0");
 }

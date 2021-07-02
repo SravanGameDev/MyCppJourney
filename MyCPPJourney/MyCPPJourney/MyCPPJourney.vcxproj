@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ASCIIProgram.cpp" />
     <ClCompile Include="ElectricityBill.cpp" />
     <ClCompile Include="MathFormulas.cpp" />
     <ClCompile Include="PlayerInformation.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="Temperature.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ASCIIProgram.h" />
     <ClInclude Include="ElectricityBill.h" />
     <ClInclude Include="MathFormulas.h" />
     <ClInclude Include="PlayerInformation.h" />
