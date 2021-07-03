@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="ASCIIProgram.cpp" />
     <ClCompile Include="ElectricityBill.cpp" />
+    <ClCompile Include="IdentifyNumberType.cpp" />
     <ClCompile Include="MathFormulas.cpp" />
     <ClCompile Include="PlayerInformation.cpp" />
     <ClCompile Include="PolygonShape.cpp" />
@@ -152,6 +153,7 @@
   <ItemGroup>
     <ClInclude Include="ASCIIProgram.h" />
     <ClInclude Include="ElectricityBill.h" />
+    <ClInclude Include="IdentifyNumberType.h" />
     <ClInclude Include="MathFormulas.h" />
     <ClInclude Include="PlayerInformation.h" />
     <ClInclude Include="PolygonShape.h" />

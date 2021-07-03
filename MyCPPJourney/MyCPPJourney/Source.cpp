@@ -1,8 +1,8 @@
-#include "ASCIIProgram.h"
+#include "IdentifyNumberType.h"
 
 int main()
 {
-	ASCIIProgram temp;
+	IdentifyNumberType temp;
 	temp.getUserInputs();
 	
 	system("pause>0");
