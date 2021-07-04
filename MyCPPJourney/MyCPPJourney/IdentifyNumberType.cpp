@@ -7,11 +7,11 @@ void IdentifyNumberType::getUserInputs()
 
 	if (number % 2 == 0)
 	{
-		cout << "Your entered number is a even number: " << number<<endl;
+		cout << "You have entered even number: " << number<<endl;
 	}
 	else
 	{
-		cout << "Your entered number is an odd number: " << number<<endl;
+		cout << "You have entered odd number: " << number<<endl;
 	}
 	
 	cout << "\n";

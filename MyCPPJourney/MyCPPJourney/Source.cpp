@@ -1,8 +1,8 @@
-#include "IdentifyNumberType.h"
+#include "Triangle.h"
 
 int main()
 {
-	IdentifyNumberType temp;
+	Triangle temp;
 	temp.getUserInputs();
 	
 	system("pause>0");

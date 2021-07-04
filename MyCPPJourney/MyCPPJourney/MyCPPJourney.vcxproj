@@ -149,6 +149,7 @@
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="SwapingNumbers.cpp" />
     <ClCompile Include="Temperature.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ASCIIProgram.h" />
@@ -160,6 +161,7 @@
     <ClInclude Include="PrintLoop.h" />
     <ClInclude Include="SwapingNumbers.h" />
     <ClInclude Include="Temperature.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

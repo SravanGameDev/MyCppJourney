@@ -1,3 +1,2 @@
-﻿  IdentifyNumberType.cpp
-C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\IdentifyNumberType.cpp(19): warning C4717: 'IdentifyNumberType::getUserInputs': recursive on all control paths, function will cause runtime stack overflow
+﻿  Triangle.cpp
   MyCPPJourney.vcxproj -> C:\Projects\Github\MyCppJourney\MyCPPJourney\Debug\MyCPPJourney.exe
