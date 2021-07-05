@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArithmeticOperators.cpp" />
     <ClCompile Include="ASCIIProgram.cpp" />
     <ClCompile Include="ElectricityBill.cpp" />
     <ClCompile Include="IdentifyNumberType.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArithmeticOperators.h" />
     <ClInclude Include="ASCIIProgram.h" />
     <ClInclude Include="ElectricityBill.h" />
     <ClInclude Include="IdentifyNumberType.h" />

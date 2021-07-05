@@ -1,8 +1,8 @@
-#include "Triangle.h"
+#include "SwapingNumbers.h"
 
 int main()
 {
-	Triangle temp;
+	SwapingNumbers temp;
 	temp.getUserInputs();
 	
 	system("pause>0");

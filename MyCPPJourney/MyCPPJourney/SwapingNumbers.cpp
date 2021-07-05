@@ -1,31 +1,45 @@
 #include "SwapingNumbers.h"
 
 
-void SwapingNumbers::getData(void)
+void SwapingNumbers::getUserInputs(void)
 {
 	cout << "Enter two numbers" << endl;
-	cin >> number1;
-	cin >> number2;
-	cout << "\nNumber1: " << number1 << " Number2: " << number2;
+	cin >> a;
+	cin >> b;
+	cout << "\na: " << a << " b: " << b;
+	arithemticMethod();
 }
 
-void SwapingNumbers::swapNumbers(void)
+void SwapingNumbers::ExtraVariableMethod(void)
 {
-	sum = number1;
-	number1 = number2;
-	number2 = sum;
+	sum = a;
+	a = b;
+	b = sum;
 
-	cout << "\nNumber1: " << number1 << " Number2: " << number2;
+	cout << "\a: " << a << " b: " << b;
 }
+
+void SwapingNumbers::arithemticMethod(void)
+{
+	cout << "\nAfter swaping the numbers";
+	a = 20;
+	b = 10;
+	a = a + b;//20+10=30
+	b = a - b;//30-10=20
+	a = a - b;//30-20=10
+	cout << "\na: " << a << " b: " << b;
+}
+
+
 
 //Average of two numbers
 void SwapingNumbers::AverageNumber(void)
 {
 	cout << "Enter a Number\n";
-	cin >> number1;
-	cin >> number2;
+	cin >> a;
+	cin >> b;
 
-	sum = number1 + number2;
+	sum = a + b;
 	average = sum / 2;
 	cout << "Average is " << average << "\n";
 }

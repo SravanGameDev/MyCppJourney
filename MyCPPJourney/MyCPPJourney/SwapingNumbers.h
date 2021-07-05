@@ -5,13 +5,14 @@ using namespace std;
 class SwapingNumbers
 {
 public:
-	float number1;
-	float number2;
+	float a;
+	float b;
 	float sum;
 	float average;
 
-	void getData(void);
-	void swapNumbers(void);
+	void getUserInputs(void);
+	void ExtraVariableMethod(void);
+	void arithemticMethod(void);
 	void AverageNumber(void);
 };
 
