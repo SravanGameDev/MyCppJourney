@@ -1,8 +1,8 @@
-#include "SwapingNumbers.h"
+#include "BMICalculator.h"
 
 int main()
 {
-	SwapingNumbers temp;
+	BMICalculator temp;
 	temp.getUserInputs();
 	
 	system("pause>0");
