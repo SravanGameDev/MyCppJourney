@@ -143,6 +143,7 @@
     <ClCompile Include="ASCIIProgram.cpp" />
     <ClCompile Include="BMICalculator.cpp" />
     <ClCompile Include="ElectricityBill.cpp" />
+    <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="IdentifyNumberType.cpp" />
     <ClCompile Include="MathFormulas.cpp" />
     <ClCompile Include="PlayerInformation.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="ASCIIProgram.h" />
     <ClInclude Include="BMICalculator.h" />
     <ClInclude Include="ElectricityBill.h" />
+    <ClInclude Include="GuessingGame.h" />
     <ClInclude Include="IdentifyNumberType.h" />
     <ClInclude Include="MathFormulas.h" />
     <ClInclude Include="PlayerInformation.h" />

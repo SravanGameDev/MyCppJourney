@@ -1,8 +1,8 @@
-#include "BMICalculator.h"
+#include "GuessingGame.h"
 
 int main()
 {
-	BMICalculator temp;
+	GuessingGame temp;
 	temp.getUserInputs();
 	
 	system("pause>0");
