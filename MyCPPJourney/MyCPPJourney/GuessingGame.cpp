@@ -2,6 +2,8 @@
 
 void GuessingGame::getUserInputs()
 {
+	using namespace std;
+
 	cout << "Host choose a number between 1 to 10: ";
 	cin >> hostUserNum;
 	system("cls");
@@ -36,12 +38,8 @@ void GuessingGame::getUserInputs()
 			cout << "You have Lives: " << Lives << endl;
 			cout << "The last Guess!! ";
 			cin >> guestUserNum;
-			(hostUserNum == guestUserNum) ? cout << "Correct!" : cout << "Failed! Try again";
+			(hostUserNum == guestUserNum) ? cout << "Correct!\nCongratulations" : cout << "Failed! Try again";
 		}
 			
 	}
-
-	
-
-
 }
