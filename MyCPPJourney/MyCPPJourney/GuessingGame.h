@@ -6,6 +6,7 @@ class GuessingGame
 {
 public: 
 	int hostUserNum, guestUserNum;
+	int Lives;
 	void getUserInputs(void);
 };
 
