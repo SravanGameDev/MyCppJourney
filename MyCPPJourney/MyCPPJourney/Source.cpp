@@ -1,8 +1,8 @@
-#include "GuessingGame.h"
+#include "Calculator.h"
 
 int main()
 {
-	GuessingGame temp;
+	Calculator temp;
 	temp.getUserInputs();
 	
 	system("pause>0");
