@@ -6,8 +6,10 @@ class ExampleWhileLoop
 	//
 	//
 public:
-	int counter = 100;
+	int counter;
+	int number;
 	void getUserInputs(void);
 	void Question1(void);
+	void Question2(void);
 };
 

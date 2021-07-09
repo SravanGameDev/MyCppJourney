@@ -4,7 +4,7 @@
 int main()
 {
 	ExampleWhileLoop temp;
-	temp.Question1();
+	temp.Question2();
 
 	system("pause>0");
 }
