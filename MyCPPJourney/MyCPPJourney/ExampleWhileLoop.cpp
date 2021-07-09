@@ -33,13 +33,42 @@ void ExampleWhileLoop::Question2()
 	cin >> number;
 
 	if (number == 0)
-		cout << "You have entered 0.\n";
-	else
-		counter = 0;
-	while (number > 0)
 	{
-		number /=  10;
-		counter++;
+		cout << "You have entered 0.\n";
 	}
-	cout << "Number of digits are " << counter;
+	else
+	{
+		if (number < 0)
+		{
+			number *= -1;
+		}
+
+		counter = 0;
+		while (number > 0)
+		{
+			number /= 10;
+			counter++;
+		}
+		cout << "Number of digits are " << counter;
+	}
+}
+/// <summary>
+/// reversing number
+/// </summary>
+void ExampleWhileLoop::Question3()
+{
+	using namespace std;
+	int reversedNumber = 0;
+
+	cout << "Enter a number: ";
+	cin >> number;
+
+	while (number!=0)
+	{
+		reversedNumber *= 10;
+		int lastDigit = number % 10;
+		reversedNumber += lastDigit;
+		number /= 10;
+	}
+	cout << "Reversed number: "<<reversedNumber;
 }
