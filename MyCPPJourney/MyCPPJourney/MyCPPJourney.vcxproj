@@ -144,8 +144,10 @@
     <ClCompile Include="BMICalculator.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="ElectricityBill.cpp" />
+    <ClCompile Include="ExampleWhileLoop.cpp" />
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="IdentifyNumberType.cpp" />
+    <ClCompile Include="MathCalculator.cpp" />
     <ClCompile Include="MathFormulas.cpp" />
     <ClCompile Include="PlayerInformation.cpp" />
     <ClCompile Include="PolygonShape.cpp" />
@@ -161,8 +163,10 @@
     <ClInclude Include="BMICalculator.h" />
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="ElectricityBill.h" />
+    <ClInclude Include="ExampleWhileLoop.h" />
     <ClInclude Include="GuessingGame.h" />
     <ClInclude Include="IdentifyNumberType.h" />
+    <ClInclude Include="MathCalculator.h" />
     <ClInclude Include="MathFormulas.h" />
     <ClInclude Include="PlayerInformation.h" />
     <ClInclude Include="PolygonShape.h" />
