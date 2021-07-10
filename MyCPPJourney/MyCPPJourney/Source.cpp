@@ -1,10 +1,10 @@
 #include<iostream>
-#include"ExampleWhileLoop.h"
+#include"ExampleDoWhile.h"
 
 int main()
 {
-	ExampleWhileLoop temp;
-	temp.Question3();
+	ExampleDoWhile temp;
+	temp.Question1();
 
 	system("pause>0");
 }

@@ -144,6 +144,7 @@
     <ClCompile Include="BMICalculator.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="ElectricityBill.cpp" />
+    <ClCompile Include="ExampleDoWhile.cpp" />
     <ClCompile Include="ExampleWhileLoop.cpp" />
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="IdentifyNumberType.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="BMICalculator.h" />
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="ElectricityBill.h" />
+    <ClInclude Include="ExampleDoWhile.h" />
     <ClInclude Include="ExampleWhileLoop.h" />
     <ClInclude Include="GuessingGame.h" />
     <ClInclude Include="IdentifyNumberType.h" />
