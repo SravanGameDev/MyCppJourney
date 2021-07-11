@@ -1,4 +1,6 @@
-﻿  ExampleDoWhile.cpp
+﻿  ExampleForLoop.cpp
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ExampleHeader.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Source.cpp
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ExampleHeader.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Generating Code...
   MyCPPJourney.vcxproj -> C:\Projects\Github\MyCppJourney\MyCPPJourney\Debug\MyCPPJourney.exe

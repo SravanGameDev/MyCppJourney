@@ -1,9 +1,8 @@
-#include<iostream>
-#include"ExampleDoWhile.h"
+#include"ExampleHeader.h"
 
 int main()
 {
-	ExampleDoWhile temp;
+	ExampleHeader temp;
 	temp.Question1();
 
 	system("pause>0");

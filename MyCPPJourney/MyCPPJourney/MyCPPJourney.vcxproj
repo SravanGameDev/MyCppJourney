@@ -145,6 +145,7 @@
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="ElectricityBill.cpp" />
     <ClCompile Include="ExampleDoWhile.cpp" />
+    <ClCompile Include="ExampleForLoop.cpp" />
     <ClCompile Include="ExampleWhileLoop.cpp" />
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="IdentifyNumberType.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="ElectricityBill.h" />
     <ClInclude Include="ExampleDoWhile.h" />
+    <ClInclude Include="ExampleHeader.h" />
     <ClInclude Include="ExampleWhileLoop.h" />
     <ClInclude Include="GuessingGame.h" />
     <ClInclude Include="IdentifyNumberType.h" />
@@ -173,9 +175,13 @@
     <ClInclude Include="PlayerInformation.h" />
     <ClInclude Include="PolygonShape.h" />
     <ClInclude Include="PrintLoop.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="SwapingNumbers.h" />
     <ClInclude Include="Temperature.h" />
     <ClInclude Include="Triangle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyCPPJourney.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
