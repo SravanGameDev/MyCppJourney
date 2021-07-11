@@ -1,6 +1,6 @@
-#include "ExampleHeader.h"
+#include "ExampleForLoop.h"
 
-void ExampleHeader::getUserInputs()
+void ExampleForLoop::getUserInputs()
 {
 	Question1();
 }
@@ -8,7 +8,7 @@ void ExampleHeader::getUserInputs()
 /// <summary>
 /// Factorial of a number
 /// </summary>
-void ExampleHeader::Question1()
+void ExampleForLoop::Question1()
 {
 	int factorial=1;
 	std::cout << "Enter a number: ";

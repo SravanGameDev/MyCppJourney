@@ -166,7 +166,7 @@
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="ElectricityBill.h" />
     <ClInclude Include="ExampleDoWhile.h" />
-    <ClInclude Include="ExampleHeader.h" />
+    <ClInclude Include="ExampleForLoop.h" />
     <ClInclude Include="ExampleWhileLoop.h" />
     <ClInclude Include="GuessingGame.h" />
     <ClInclude Include="IdentifyNumberType.h" />

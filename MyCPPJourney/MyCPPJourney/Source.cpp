@@ -1,8 +1,8 @@
-#include"ExampleHeader.h"
+#include"ExampleForLoop.h"
 
 int main()
 {
-	ExampleHeader temp;
+	ExampleForLoop temp;
 	temp.Question1();
 
 	system("pause>0");
