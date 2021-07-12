@@ -3,8 +3,6 @@
 
 class ExampleWhileLoop
 {
-	//
-	//
 public:
 	int counter;
 	int number;
@@ -14,3 +12,4 @@ public:
 	void Question3(void);
 };
 
+ 

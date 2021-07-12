@@ -149,6 +149,7 @@
     <ClCompile Include="ExampleWhileLoop.cpp" />
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="IdentifyNumberType.cpp" />
+    <ClCompile Include="LoopsNested.cpp" />
     <ClCompile Include="MathCalculator.cpp" />
     <ClCompile Include="MathFormulas.cpp" />
     <ClCompile Include="PlayerInformation.cpp" />
@@ -170,6 +171,7 @@
     <ClInclude Include="ExampleWhileLoop.h" />
     <ClInclude Include="GuessingGame.h" />
     <ClInclude Include="IdentifyNumberType.h" />
+    <ClInclude Include="LoopsNested.h" />
     <ClInclude Include="MathCalculator.h" />
     <ClInclude Include="MathFormulas.h" />
     <ClInclude Include="PlayerInformation.h" />
