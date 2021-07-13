@@ -139,13 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ArithmeticOperators.cpp" />
     <ClCompile Include="ASCIIProgram.cpp" />
     <ClCompile Include="BMICalculator.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="ElectricityBill.cpp" />
     <ClCompile Include="ExampleDoWhile.cpp" />
     <ClCompile Include="ExampleForLoop.cpp" />
+    <ClCompile Include="ExampleLoops.cpp" />
     <ClCompile Include="ExampleWhileLoop.cpp" />
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="IdentifyNumberType.cpp" />
@@ -161,13 +161,13 @@
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArithmeticOperators.h" />
     <ClInclude Include="ASCIIProgram.h" />
     <ClInclude Include="BMICalculator.h" />
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="ElectricityBill.h" />
     <ClInclude Include="ExampleDoWhile.h" />
     <ClInclude Include="ExampleForLoop.h" />
+    <ClInclude Include="ExampleLoops.h" />
     <ClInclude Include="ExampleWhileLoop.h" />
     <ClInclude Include="GuessingGame.h" />
     <ClInclude Include="IdentifyNumberType.h" />

@@ -1,3 +1,4 @@
-﻿  Source.cpp
-C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Source.cpp(22,23): warning C4018: '<': signed/unsigned mismatch
+﻿  ExampleLoops.cpp
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ExampleLoops.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ExampleLoops.cpp(21,15): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   MyCPPJourney.vcxproj -> C:\Projects\Github\MyCppJourney\MyCPPJourney\Debug\MyCPPJourney.exe
