@@ -1,16 +1,17 @@
 #include "ExampleLoops.h"
 #include<iostream>
+#include<iomanip>
 
 void NestedLoops()
 {
 	int subjects;
-	float grade;
+	int grade;
 	int sum = 0;
 	std::cout << "Grading System from 1 to 10";
 	std::cout << "\nHow many subjects do you have? ";
 	std::cin >> subjects;
 
-	for (size_t i = 0; i < subjects; i++)
+	for (int i = 0; i < subjects; i++)
 	{
 		do
 		{
@@ -48,12 +49,29 @@ void DrawShape()
 	std::cout << "Enter a symbol-> ";
 	std::cin >> symbol;
 	
-	for (size_t h = 0; h < height; h++)
+	for (int h = 0; h < height; h++)
 	{
-		for (size_t w = 0; w < width; w++)
+		for (int w = 0; w < width; w++)
 		{
-			std::cout << " " << symbol<<" ";
+			std::cout<<std::setw(3)<<symbol;
 		}
 		std::cout << std::endl;
 	}
+}
+
+void EquilateralTriangle()
+{
+	int height;
+	std::cout << "Enter height for a triangle: ";
+	std::cin >> height;
+
+	for (size_t h = 1; h <= height; h++)
+	{
+		for (size_t w = 0; w < h; w++)
+		{
+			std::cout << std::setw(3) << "*";
+		}
+		std::cout << std::endl;
+	}
+
 }

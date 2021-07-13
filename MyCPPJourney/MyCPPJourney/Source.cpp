@@ -3,7 +3,7 @@
 
 int main()
 {
-	DrawShape();
+	EquilateralTriangle();
 
 	system("pause>0");
 }
