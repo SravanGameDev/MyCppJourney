@@ -61,10 +61,11 @@ void DrawShape()
 
 void EquilateralTriangle()
 {
-	int height;
+	int height=2;
+	/*
 	std::cout << "Enter height for a triangle: ";
 	std::cin >> height;
-
+	*/
 	for (size_t h = 1; h <= height; h++)
 	{
 		for (size_t w = 0; w < h; w++)
@@ -73,5 +74,21 @@ void EquilateralTriangle()
 		}
 		std::cout << std::endl;
 	}
+}
 
+void InvertedEquilateralTriangle()
+{
+	int height=3;
+	/*
+	std::cout << "Enter height for a triangle: ";
+	std::cin >> height;
+	*/
+	for (size_t h = height; h >=1; h--)
+	{
+		for (size_t w = 0; w < h; w++)
+		{
+			std::cout << std::setw(3) << "*";
+		}
+		std::cout << std::endl;
+	}
 }

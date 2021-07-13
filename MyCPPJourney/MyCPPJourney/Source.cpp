@@ -4,6 +4,7 @@
 int main()
 {
 	EquilateralTriangle();
+	InvertedEquilateralTriangle();
 
 	system("pause>0");
 }
