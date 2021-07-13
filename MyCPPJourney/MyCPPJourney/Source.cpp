@@ -3,7 +3,7 @@
 
 int main()
 {
-	NestedForLoop();
+	DrawShape();
 
 	system("pause>0");
 }

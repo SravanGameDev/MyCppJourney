@@ -31,10 +31,29 @@ void NestedForLoop()
 	{
 		for (size_t j = 1; j <= 10; j++)
 		{
-			std::cout << i << "*" << j<<"=" << i * j << std::endl;
+			std::cout << i << " * " << j<<" = " << i * j << std::endl;
 		}
-
-		std::cout << "____________________________________\n";
+		std::cout << "\n";
 	}
+}
 
+void DrawShape()
+{
+	int height, width;
+	char symbol;
+	std::cout << "Enter a height: ";
+	std::cin >> height;
+	std::cout << "Enter a width: ";
+	std::cin >> width;
+	std::cout << "Enter a symbol-> ";
+	std::cin >> symbol;
+	
+	for (size_t h = 0; h < height; h++)
+	{
+		for (size_t w = 0; w < width; w++)
+		{
+			std::cout << " " << symbol<<" ";
+		}
+		std::cout << std::endl;
+	}
 }
