@@ -2,6 +2,150 @@
 #include<iostream>
 #include<iomanip>
 
+void PrintLoop()
+{
+	using namespace std;
+	int number;
+	cout << "Enter a number: ";
+	cin >> number;
+
+	for (size_t i = 0; i < number; i++)
+	{
+		for (size_t j = 0; j < i; j++)
+		{
+			cout << i;
+		}
+		cout << endl;
+		number++;
+	}
+}
+
+void ExampleDoWhile()
+{
+	const int userPin = 1234;
+	int pin, errorcounter;
+
+	errorcounter = 0;
+	do
+	{
+		std::cout << "Enter your PIN: ";
+		std::cin >> pin;
+		if (pin != userPin)
+		{
+			errorcounter++;
+		}
+
+	} while (errorcounter < 3 && pin != userPin);
+
+	if (errorcounter < 3)
+	{
+		std::cout << "Loading...!";
+	}
+	else
+	{
+		std::cout << "Blocked";
+	}
+}
+
+/// <summary>
+/// Factorial of a number
+/// </summary>
+void ExampleForLoop()
+{
+	int number;
+
+	int factorial = 1;
+	std::cout << "Enter a number: ";
+	std::cin >> number;
+
+	if (0 <= number)
+	{
+		for (int i = 1; i <= number; i++)
+		{
+			factorial = factorial * i;
+		}
+		std::cout << "Factorial of " << number << "! is: " << factorial;
+	}
+	else
+	{
+		std::cout << "Enter a vaild number which greater than zero";
+	}
+
+}
+
+/// <summary>
+/// Write out all the numbers between 100 - 500 that 
+/// divisble by 3 and 5 
+/// </summary>
+void ExampleWhileLoop()
+{
+	int counter;
+	counter = 100;
+	while (counter <= 500)
+	{
+		if (counter % 3 == 0 && counter % 5 == 0)
+		{
+			std::cout << counter << " is divisible\n";
+		}
+		counter++;
+	}
+}
+
+/// <summary>
+/// User enter a number, 
+/// Count digits of a number;
+/// </summary>
+void ExampleWhileLoop1()
+{
+	using namespace std;
+	int number;
+	int counter;
+
+	cout << "Enter a number: ";
+	cin >> number;
+
+	if (number == 0)
+	{
+		cout << "You have entered 0.\n";
+	}
+	else
+	{
+		if (number < 0)
+		{
+			number *= -1;
+		}
+
+		counter = 0;
+		while (number > 0)
+		{
+			number /= 10;
+			counter++;
+		}
+		cout << "Number of digits are " << counter;
+	}
+}
+/// <summary>
+/// reversing number
+/// </summary>
+void ExampleWhileLoop2()
+{
+	using namespace std;
+	int reversedNumber = 0;
+	int number;
+
+	cout << "Enter a number: ";
+	cin >> number;
+
+	while (number != 0)
+	{
+		reversedNumber *= 10;
+		int lastDigit = number % 10;
+		reversedNumber += lastDigit;
+		number /= 10;
+	}
+	cout << "Reversed number: " << reversedNumber;
+}
+
 void NestedLoops()
 {
 	int subjects;

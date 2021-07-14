@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 
 /// <summary>
 /// return type function
@@ -34,6 +35,29 @@ void PrimeNumber()
 
 }
 
+#pragma region  Function Overloading
+
+float Area(float base, float height)
+{
+	float value;
+
+	value = base * height;
+	value = value / 2;
+	cout << "Area of a triangle is: " << value << endl;
+
+	return value;
+}
+
+float Area(float radius)
+{
+	float value;
+
+	value = 3.14 * radius * radius;
+	cout << "Area of a cricle is : " << value << endl;
+
+	return value;
+}
+#pragma endregion
 
 void main()
 {

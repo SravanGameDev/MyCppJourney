@@ -1,5 +1,16 @@
-﻿  Function.cpp
-C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(10,23): warning C4018: '<': signed/unsigned mismatch
-C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(27,23): warning C4018: '<': signed/unsigned mismatch
-C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(40,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  BasicSyntax.cpp
+  Function.cpp
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(11,23): warning C4018: '<': signed/unsigned mismatch
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(28,23): warning C4018: '<': signed/unsigned mismatch
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(55,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(63,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Loops.cpp
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Loops.cpp(12,23): warning C4018: '<': signed/unsigned mismatch
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Loops.cpp(212,23): warning C4018: '<=': signed/unsigned mismatch
+  Operators.cpp
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Operators.cpp(118,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Operators.cpp(122,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Operators.cpp(126,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Operators.cpp(132,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
   MyCPPJourney.vcxproj -> C:\Projects\Github\MyCppJourney\MyCPPJourney\Debug\MyCPPJourney.exe
