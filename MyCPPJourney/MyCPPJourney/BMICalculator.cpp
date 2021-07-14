@@ -1,17 +1,12 @@
 #include "BMICalculator.h"
 
-void BMICalculator::getUserInputs()
+void BMICalculator::BMIFormula()
 {
 	cout << "Enter weight in Kg"<<endl;
 	cin >> weight;
 	cout << "Enter height in m" << endl;
 	cin >> height;
 
-	BMIFormula();
-}
-
-void BMICalculator::BMIFormula()
-{
 	bmi = weight / (height * height);
 
 	if (bmi < 18.5)

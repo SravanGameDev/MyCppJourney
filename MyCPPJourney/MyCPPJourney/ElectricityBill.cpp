@@ -1,14 +1,10 @@
 #include "ElectricityBill.h"
 
-void ElectricityBill::getUnits(void)
+void ElectricityBill::generateBill()
 {
 	cout << "Enter your units ";
 	cin >> currentUnits;
-	generateBill(currentUnits);
-}
 
-void ElectricityBill::generateBill(int currentUnits)
-{
 	if (currentUnits < 100)
 	{
 		bill = 50;

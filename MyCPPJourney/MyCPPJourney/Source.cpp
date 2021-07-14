@@ -1,10 +1,5 @@
 #include<iostream>
-#include"ExampleLoops.h"
+#include"Loops.h"
+#include"Loops.h"
 
-int main()
-{
-	EquilateralTriangle();
-	InvertedEquilateralTriangle();
 
-	system("pause>0");
-}

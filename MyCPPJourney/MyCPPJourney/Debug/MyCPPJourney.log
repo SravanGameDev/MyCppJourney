@@ -1,3 +1,5 @@
-﻿  ExampleLoops.cpp
-C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\ExampleLoops.cpp(69,23): warning C4018: '<=': signed/unsigned mismatch
+﻿  Function.cpp
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(10,23): warning C4018: '<': signed/unsigned mismatch
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(27,23): warning C4018: '<': signed/unsigned mismatch
+C:\Projects\Github\MyCppJourney\MyCPPJourney\MyCPPJourney\Function.cpp(40,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
   MyCPPJourney.vcxproj -> C:\Projects\Github\MyCppJourney\MyCPPJourney\Debug\MyCPPJourney.exe

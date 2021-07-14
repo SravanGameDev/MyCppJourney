@@ -69,10 +69,10 @@
     <ClCompile Include="ExampleForLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LoopsNested.cpp">
+    <ClCompile Include="Loops.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExampleLoops.cpp">
+    <ClCompile Include="Function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -131,10 +131,7 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LoopsNested.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ExampleLoops.h">
+    <ClInclude Include="Loops.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

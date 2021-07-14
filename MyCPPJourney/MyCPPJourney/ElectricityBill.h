@@ -7,9 +7,7 @@ class ElectricityBill
 public:
 	float currentUnits;
 	float bill;
-
-	void getUnits(void);
-	void generateBill(int currentUnits);
+	void generateBill(void);
 
 };
 

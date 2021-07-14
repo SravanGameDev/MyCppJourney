@@ -1,7 +1,12 @@
 #include "ASCIIProgram.h"
+#include <iostream>
 
-void ASCIIProgram::getUserInputs()
+void ASCIIProgram::ASCIIValues()
 {
+	using namespace std;
+
+	char c1, c2, c3, c4, c5;
+
 	cout << "Enter 5 letter word ";
 	cin >> c1 >> c2 >> c3 >> c4 >> c5;
 	cout << "\nASCII Message: "
